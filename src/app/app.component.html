@@ -1,0 +1,46 @@
+<style>
+  /* Basic styling for the menu bar */
+  body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+  }
+  .menu-bar {
+      background-color: #333;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      width: 100%;
+  }
+  .menu-title {
+      font-size: 20px;
+      margin-left: 20px;
+  }
+  .login-button {
+      margin-right: 20px;
+      cursor: pointer;
+      padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+</style>
+<main class="main">
+  <div class="menu-bar">
+    <div class="menu-title">Employee Manamgent System</div>
+    <div class="menu-items">
+        <!--<div *ngIf="isLoggedIn()"> -->
+        <!-- <div *ngIf="!isLoggedIn()"> -->
+          <button class="login-button" *ngIf="!userIsAuthenticated" routerLink="/">Login</button>
+          <button class="login-button" *ngIf="userIsAuthenticated" (click)="onLogout()">Logout</button>
+    </div>
+</div>
+
+</main>
+<router-outlet />
+

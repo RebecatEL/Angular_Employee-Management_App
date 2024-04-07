@@ -1,0 +1,39 @@
+<div class="form-container" *ngIf="isEditMode">
+<h2>Update Employee</h2>
+<form class="form-group" [formGroup]="employeeForm" (ngSubmit)="onSubmit()">
+    <input type="text" formControlName="firstname" placeholder="First Name" [(ngModel)]="employee.firstname">
+    <br/><br/>
+    <input type="text" formControlName="lastname" placeholder="Last Name" [(ngModel)]="employee.lastname">
+    <br/><br/>
+    <input type="text" formControlName="email" placeholder="Email" [(ngModel)]="employee.email">
+    <br/><br/>
+    <input type="text" formControlName="gender" placeholder="Gender" [(ngModel)]="employee.gender">
+    <br/><br/>
+    <input type="number" formControlName="salary" placeholder="Salary" [(ngModel)]="employee.salary">
+    <br/><br/>
+    <div class="btn-container">
+    <button type="submit">Save</button>
+    </div>
+</form>
+
+</div> 
+
+<div class="form-container" *ngIf="isEditMode == false">
+    <!-- empty form and have a create button to create new employee -->
+    <h2>Create Employee</h2>
+    <form class="form-group" [formGroup]="employeeForm" (ngSubmit)="onCreate()">
+        <input type="text" formControlName="firstname" placeholder="First Name">
+        <br/><br/>
+        <input type="text" formControlName="lastname" placeholder="Last Name">
+        <br/><br/>
+        <input type="text" formControlName="email" placeholder="Email">
+        <br/><br/>
+        <input type="text" formControlName="gender" placeholder="Gender">
+        <br/><br/>
+        <input type="number" formControlName="salary" placeholder="Salary">
+        <br/><br/>
+        <div class="btn-container">
+        <button type="submit">Create</button>
+        </div>
+    </form>
+</div>
