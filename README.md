@@ -1,27 +1,19 @@
-# 101395302COMP3133Assignment2
+# 101395302COMP3133Assignment2 - Employee Manamgent System (Frontend)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+The Employee Managment System using below tech stacks:
+- Backend (API): MongoDB + GraphQL + Apollo Server + Node + Express
+- Frontend: Angular
 
-## Development server
+## Backend
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Backend codes on [Github](https://github.com/RebecatEL/101395302_COMP3133_Assignment1)
+Backend server for API is deployed on [Heroku](https://evening-coast-54414-fe7e6416b2ea.herokuapp.com/graphql)
 
-## Code scaffolding
+## Frontend
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Frontend is deployed on [Vercel](https://101395302-comp-3133-assignment2.vercel.app/)
 
-## Build
+Sample user login:
+- Email: test@example.com
+- Password: password123
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
