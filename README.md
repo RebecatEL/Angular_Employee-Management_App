@@ -6,7 +6,7 @@ The Employee Managment System using below tech stacks:
 
 ## Backend
 
-Backend codes on [Github](https://github.com/RebecatEL/101395302_COMP3133_Assignment1)
+Backend codes on [Github](https://github.com/RebecatEL/Angular_Employee-Management_App_backend)
 Backend server for API is deployed on [Heroku](https://evening-coast-54414-fe7e6416b2ea.herokuapp.com/graphql)
 
 ## Frontend
