@@ -1,4 +1,4 @@
-# 101395302COMP3133Assignment2 - Employee Manamgent System (Frontend)
+# Angular - Employee Manamgent System (Frontend)
 
 The Employee Managment System using below tech stacks:
 - Backend (API): MongoDB + GraphQL + Apollo Server + Node + Express
